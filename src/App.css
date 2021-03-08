@@ -1,0 +1,609 @@
+.body {
+  position: inherit;
+  height: 100%;
+  width: 100vw;
+  overflow: hidden;
+  background-color: white;
+  margin: 1%;
+  border: 2px solid black;
+  padding: 0%;
+}
+
+.Navbar {
+  margin: auto;
+  height: 10%;
+  width: 100%;
+  background-color: white;
+  align-items: inherit;
+}
+
+.getOurApp {
+  height: 2rem;
+  width: 12%;
+  color: black;
+  float: left;
+  display: inline-block;
+  position: relative;
+  margin-left: 20rem;
+}
+
+.title {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  align-items: center;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  padding-left: 30%;
+  padding-right: 20%;
+  font-size: 5rem;
+}
+
+.loginButton {
+  position: static;
+  float: right;
+  display: inline-block;
+  margin-top: 0%;
+}
+
+.locDiv {
+  display: flex;
+  position: relative;
+  width: 60%;
+  height: 20%;
+  background-color: #adaba3;
+  padding-top: 1rem;
+  padding-left: 0.2rem;
+  padding-right: 0.5rem;
+  padding-bottom: 1rem;
+  margin-top: 8%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 2%;
+  border: 2px solid black;
+  border-radius: 2rem;
+}
+
+.locn {
+  display: inline-block;
+  width: 50%;
+  height: 30%;
+  float: left;
+  color: white;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+  margin-right: 0.5rem;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+  padding-bottom: 1rem;
+  padding-right: 0.5rem;
+  background-color: #13121c;
+  border: 2px solid black;
+  border-radius: 30px;
+  text-align: center;
+  align-items: center;
+  position: inherit;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.location-search-input {
+  display: inline-block;
+  float: right;
+  align-items: center;
+  position: inherit;
+  width: 32rem;
+  height: 20%;
+  margin-top: 2rem;
+  margin-right: 0.5rem;
+  margin-bottom: 2rem;
+  padding: 15px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 30px;
+}
+
+.homeDesc {
+  width: 50%;
+  height: 15%;
+  display: flex;
+  position: relative;
+  float: right;
+  margin-top: 0%;
+  margin-left: 50%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  padding-top: 0%;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  padding-bottom: 0.2rem;
+  border: 2px solid black;
+}
+
+.homeDescNav {
+  display: inline-block;
+  position: absolute;
+  width: 50%;
+  height: 2rem;
+}
+
+.homeDescNavTitle {
+  display: inline-block;
+  position: absolute;
+  height: 2rem;
+  width: 10rem;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 2rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.closeHomeDesc {
+  display: inline-block;
+  position: relative;
+  height: 1rem;
+  width: 2rem;
+  margin-top: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+  padding: 0%;
+  float: right;
+}
+
+.homeDescWritings {
+  display: inline-block;
+  position: absolute;
+  float: left;
+  width: 5rem;
+  height: 6rem;
+  margin: 0%;
+}
+
+.homeDesc1 {
+  display: inline-block;
+  position: relative;
+  height: 7rem;
+  width: 20%;
+  margin: 0%;
+  padding-top: 3rem;
+  padding-left: 1rem;
+  padding-right: 3rem;
+  padding-bottom: 0%;
+  border: none;
+  text-align: center;
+  align-items: center;
+}
+
+.homeDesc2 {
+  display: inline-block;
+  position: relative;
+  height: 7rem;
+  width: 20%;
+  margin: 0%;
+  padding-top: 3rem;
+  padding-left: 0.5rem;
+  padding-right: 3rem;
+  padding-bottom: 0%;
+  border: none;
+  text-align: center;
+  align-items: center;
+}
+
+.homeDesc3 {
+  display: inline-block;
+  position: relative;
+  height: 7rem;
+  width: 20%;
+  margin: 0%;
+  padding-top: 3rem;
+  padding-left: 0.5rem;
+  padding-right: 3rem;
+  padding-bottom: 0%;
+  border: none;
+  text-align: center;
+  align-items: center;
+}
+
+.homeDesc4 {
+  display: inline-block;
+  position: relative;
+  height: 7rem;
+  width: 20%;
+  margin: 0%;
+  padding-top: 3rem;
+  padding-left: 0.5rem;
+  padding-right: 3rem;
+  padding-bottom: 0%;
+  border: none;
+  text-align: center;
+  align-items: center;
+}
+
+.how {
+  width: 100%;
+  align-items: center;
+}
+
+.howWorks {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  padding-top: 30%;
+  padding-bottom: 8%;
+}
+
+.customerSearch {
+  display: inline-block;
+  position: relative;
+  height: 240px;
+  width: 240px;
+  margin-left: 12%;
+  margin-bottom: 5%;
+}
+
+.searchBookStore {
+  display: inline-block;
+  position: relative;
+  height: 240px;
+  width: 240px;
+  margin-left: 12%;
+  margin-bottom: 5%;
+}
+
+.deliverRequirements {
+  display: inline-block;
+  position: relative;
+  height: 240px;
+  width: 240px;
+  margin-left: 12%;
+  margin-bottom: 5%;
+}
+
+.buyBooks {
+  display: block;
+  position: relative;
+  height: 80px;
+  width: 40%;
+  align-items: center;
+  margin-left: 30%;
+  color: white;
+  background-color: #13121c;
+  border-color: #13121c;
+  border-radius: 40px;
+}
+
+.loginMain {
+  display: inline-block;
+  position: relative;
+  height: 800px;
+  width: 50%;
+  margin: 0%;
+  padding-top: 100px;
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-bottom: 1%;
+  align-items: center;
+}
+
+.loginHeading {
+  display: inline;
+  position: relative;
+  font-size: 80px;
+}
+
+.loginSub {
+  display: inline-block;
+  position: relative;
+  height: 350px;
+  width: 70%;
+  align-items: center;
+  margin-top: 15%;
+  margin-left: 12%;
+  background-color: #c7c9c8;
+  border-radius: 20px;
+}
+
+.logIn {
+  display: block;
+  position: relative;
+  height: 35px;
+  width: 70%;
+  margin-top: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-left: 2%;
+  border-radius: 20px;
+  border-color: #c7c9c8;
+}
+
+.passWord {
+  display: block;
+  position: relative;
+  height: 35px;
+  width: 70%;
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 8%;
+  padding-left: 2%;
+  border-radius: 20px;
+  border-color: #c7c9c8;
+}
+
+.submitBtn {
+  display: block;
+  position: relative;
+  height: 35px;
+  width: 30%;
+  margin-top: 0%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 8%;
+  color: white;
+  background-color: #13121c;
+  border-radius: 20px;
+}
+
+.notAuser {
+  display: inline;
+  position: relative;
+  width: 40%;
+  margin-left: 32%;
+}
+
+.bookS {
+  height: 800px;
+  width: 50%;
+  float: right;
+  margin-top: 100px;
+  margin-bottom: 0%;
+}
+
+.ceoDetails {
+  display: inline-block;
+  position: relative;
+  height: 200px;
+  width: 70%;
+  float: right;
+  margin-top: 100px;
+  margin-left: 0%;
+  margin-right: 0%;
+  align-items: center;
+}
+
+.founderCeo {
+  display: inline-block;
+  position: relative;
+  height: 180px;
+  width: 200px;
+  margin-top: 100px;
+  margin-left: 10%;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.arif {
+  font-weight: bold;
+}
+
+.pic1 {
+  display: inline-block;
+  position: relative;
+  height: 180px;
+  width: 200px;
+  margin-top: 0%;
+  margin-bottom: 10px;
+  margin-left: 20%;
+}
+
+.pic2 {
+  display: inline-block;
+  position: relative;
+  height: 180px;
+  width: 200px;
+  margin-top: 0%;
+  margin-bottom: 10px;
+  margin-left: 20%;
+}
+
+.footer {
+  display: inline-block;
+  position: relative;
+  height: 500px;
+  width: 100%;
+  margin-top: 50px;
+  background-color: #bbbfbd;
+}
+
+.companyDetails {
+  display: inline-block;
+  position: relative;
+  height: 250px;
+  width: 150px;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.contactDetails {
+  display: inline-block;
+  position: relative;
+  height: 250px;
+  width: 150px;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.forYouDetails {
+  display: inline-block;
+  position: relative;
+  height: 250px;
+  width: 150px;
+  text-align: center;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+
+.socialMedia {
+  display: inline-block;
+  position: relative;
+  height: 300px;
+  width: 40%;
+  margin-top: 80px;
+  margin-right: 7%;
+  float: right;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.companY {
+  text-decoration: underline;
+}
+
+.contacT {
+  text-decoration: underline;
+}
+
+.forYou {
+  text-decoration: underline;
+}
+
+footer div a {
+  text-decoration: none;
+  color: white;
+}
+
+footer div h6 {
+  color: black;
+}
+
+.stalkBooks {
+  color: black;
+  margin-top: 10px;
+  margin-left: 35%;
+}
+
+.rights {
+  display: block;
+  position: relative;
+  height: 30px;
+  width: 40%;
+  margin-top: 8%;
+  margin-left: 30%;
+  background-color: white;
+  text-align: center;
+  padding-top: 8px;
+  border-radius: 20px;
+}
+
+.socialMediaFooter {
+  display: inline-block;
+  position: absolute;
+  height: 70px;
+  width: 100%;
+  margin-top: 170px;
+  margin-bottom: 0%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.FB {
+  display: inline-block;
+  position: relative;
+  height: 70px;
+  width: 70px;
+  margin-left: 17px;
+}
+
+.fbImg {
+  display: inline-block;
+  position: relative;
+  height: 70px;
+  width: 70px;
+}
+
+.twitter {
+  display: inline-block;
+  position: relative;
+  height: 70px;
+  width: 70px;
+  margin-left: 17px;
+}
+
+.twitterImg {
+  display: inline-block;
+  position: relative;
+  height: 70px;
+  width: 70px;
+}
+
+.instagram {
+  display: inline-block;
+  position: relative;
+  height: 55px;
+  width: 55px;
+  margin-top: 0%;
+  margin-left: 19px;
+}
+
+.instagramImg {
+  display: inline-block;
+  position: relative;
+  height: 55px;
+  width: 55px;
+  margin-top: 0%;
+  margin-bottom: 8px;
+}
+
+.youtube {
+  display: inline-block;
+  position: relative;
+  height: 60px;
+  width: 70px;
+  margin-left: 19px;
+}
+
+.youtubeImg {
+  display: inline-block;
+  position: relative;
+  height: 60px;
+  width: 70px;
+  margin-bottom: 5px;
+}
+
+.linkedin {
+  display: inline-block;
+  position: relative;
+  height: 70px;
+  width: 70px;
+  margin-left: 17px;
+}
+
+.linkedinImg {
+  display: inline-block;
+  position: relative;
+  height: 70px;
+  width: 70px;
+}
+
+.blogger {
+  display: inline-block;
+  position: relative;
+  height: 70px;
+  width: 70px;
+  margin-left: 15px;
+}
+
+.bloggerImg {
+  display: inline-block;
+  position: relative;
+  height: 70px;
+  width: 70px;
+}
